@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:rgba(14, 13, 13, 0.795);
+    --primary:rgb(24, 103, 250);
+}
+/* styling header  */
+.header{
+    background-color: var(--main);
+    /* padding-bottom: 5%; */
+}
+.container .navbar-brand{
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-nav a{
+font-size: 1.4rem;
+color: rgb(143, 141, 141);
+
+}
+.navbar-nav a:hover{
+    color: whitesmoke;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+/* styling header done */
+/* styling content  */
+.content{
+    text-align: center;
+    margin-top: 8%;
+}
+.content h1{
+ font-size: 3rem;
+ font-weight: 800;
+ width: 45%;
+ margin: 0 auto;
+}
+.content p{
+    font-size: 1.6rem;
+    color: grey;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.content button{
+    margin-top: 2%;
+    font-size: 1.7rem;
+    padding: 0.5%;
+}
+/* styling content  done */
+/* styling content1 */
+.content1{
+    background-color: whitesmoke;
+    margin-top: 6%;
+    padding: 4%;
+}
+.cont img{
+width: 80%;
+height: 50vh;
+}
+.cont1 h2{
+    margin-top: 20%;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.cont1 p{
+    font-size: 1.6rem;
+    width: 85%;
+    color: gray;
+}
+/* styling content1 done */
+/* styling content2 */
+.content2{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    padding: 4%;
+}
+.conter{text-align: center;}
+.conter h1{
+font-size: 3rem;
+font-weight: 700;
+text-align: center;
+}
+.conter p{
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+}
+.cont3 img{
+    width: 50%;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.cont3 h3{
+    margin-top: 2%;
+    margin-left: 10px;
+}
+.cont3 p{
+    font-size: 1.4rem;
+    margin-top: 2%;
+    margin-left: 10px;
+    color: gray;
+}
+/* styling content2 done */
+/* styling footer  */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 7%;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+.footer a{
+    color: white;
+   font-size: 1.2rem;
+}
+.footer ul{
+    margin-left: 60%;
+}
+/* styling footer  done */

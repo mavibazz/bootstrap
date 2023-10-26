@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:purple;
+    --primary:yellow;
+}
+/* styling header  */
+.navbar{
+    background-color: var(--main);
+}
+.container .navbar-brand{
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+.container .navbar-brand:hover{
+    color: var(--primary);
+}
+.navbar-nav a{
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+.navbar-nav a:hover{
+    color: white;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: var(--main) !important;
+}
+.dropdown-menu a:hover{
+    background-color: var(--main) !important;
+}
+/* styling header done  */
+/* styling carousel */
+.carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-indicators .active{
+    background-color: var(--main) !important;
+}
+.carousel-control-prev i{
+    font-size: 3rem;
+    color: var(--main);
+}
+.carousel-control-next i{
+    font-size: 3rem;
+    color: var(--main);
+}
+/* styling carousel done  */
+/* styling services */
+.service img{
+    height: 300px;
+}
+.card-body{
+    background-color: var(--main);
+}
+.service h5{
+    color: var(--primary);
+    font-size: 1.9rem;
+}
+/* styling services done */
+/* styling footer  */
+#footer{
+    background-color: var(--main);
+}
+.useful{
+    text-align: center;
+}
+.useful a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+.social{
+    text-align: center;
+}
+.social i{
+    font-size: 2rem;
+    color: var(--primary);
+}
+.logo{
+    text-align: center;
+}
+/* styling footer  done  */

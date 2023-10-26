@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:rgba(14, 13, 13, 0.795);
+    --primary:rgb(24, 103, 250);
+}
+/* styling header  */
+.navbar{
+    background-color: var(--main);
+}
+.container .navbar-brand{
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-nav a{
+font-size: 1.4rem;
+color: rgb(143, 141, 141);
+
+}
+.navbar-nav a:hover{
+    color: whitesmoke;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropdown-menu a:hover{
+    color: black;
+}

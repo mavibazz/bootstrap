@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:rgba(14, 13, 13, 0.795);
+    --primary:rgb(24, 103, 250);
+}
+/* styling header  */
+.header{
+    background-color: var(--main);
+    /* padding-bottom: 5%; */
+}
+.container .navbar-brand{
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-nav a{
+font-size: 1.4rem;
+color: rgb(143, 141, 141);
+
+}
+.navbar-nav a:hover{
+    color: whitesmoke;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+/* styling header done */
+/* styling content  */
+.content{
+    text-align: center;
+    margin-top: 5%;
+}
+.content2{
+    margin-top: 7%;
+}
+.content h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.content p{
+    font-size: 1.5rem;
+    margin-top: 1%;
+    color: gray;
+}
+.content1 h1{
+    font-weight: 700;
+    /* margin-top: 6%; */
+}
+.accordion button{
+    font-size: 1.5rem;
+}
+.accordion-body{
+    font-size: 1.3rem;
+}
+.cont{
+    margin-top: 2%;
+}
+.cont1{
+    text-align: center;
+    margin-left: 3%;
+    background-color: whitesmoke;
+    height: 30vh;
+}
+.cont1 h3{
+    margin-top: 15%;
+    font-size: 1.2rem;
+}
+.cont1 p{
+    margin-top: 1%;
+    font-size: 1.2rem;
+    color: gray;
+}
+.cont1 a{
+    font-size: 1.2rem;
+}
+.cont1 i{
+    color: black;
+    font-size: 1.6rem;
+}
+/* styling content  done */
+/* styling footer  */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 7%;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+.footer a{
+    color: white;
+   font-size: 1.2rem;
+}
+.footer ul{
+    margin-left: 60%;
+}
+/* styling footer  done */

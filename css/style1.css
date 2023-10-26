@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:rgba(14, 13, 13, 0.795);
+    --primary:rgb(24, 103, 250);
+}
+/* styling header  */
+.header{
+    background-color: var(--main);
+    padding-bottom: 5%;
+}
+.container .navbar-brand{
+    font-size: 1.5rem;
+    color: white;
+}
+.navbar-nav a{
+font-size: 1.4rem;
+color: rgb(143, 141, 141);
+
+}
+.navbar-nav a:hover{
+    color: whitesmoke;
+}
+.navbar-nav{
+    gap: 15px;
+}
+.dropdown ul{
+    background-color: white;
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+.boot{
+    margin-top: 7%;
+}
+.boot h1{
+    color: white;
+    width: 90%;
+    font-size: 4rem;
+}
+.boot p{
+    color: rgb(170, 168, 168);
+    font-size: 1.6rem;
+}
+.boot button{
+    width: 25%;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.boot img{
+    margin-left: 15%;
+    width: 75%;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* styling header  done  */
+/* styling content  */
+.content h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 20%;
+    width: 70%;
+}
+.content i{
+    background-color: rgb(43, 91, 248);
+    font-size: 30px;
+    color: white;
+    padding: 0% 2%;
+    border-radius: 4px;
+}
+.content h3{
+    margin-top: 6%;
+}
+.content p{
+    font-size: 1.3rem;
+}
+.cont1{
+    margin-top: 20%;
+}
+.cont2{
+    margin-top: 10%;
+}
+/* styling content  done */
+/* styling content1 */
+.content1{
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+}
+.content1 p{
+    font-size: 2rem;
+    width: 40%;
+    margin: 0 auto;
+}
+.content1 img{
+    width: 150%;
+    height: 6vh;
+    border-radius: 100%;
+    /* margin: 0% auto; */
+    margin-top: 3%;
+    object-fit: cover;
+}
+.conter{
+    display: flex;
+    margin-top: 2%;
+}
+.conter1{
+    padding-left: 40%;
+    
+}
+.conter2{
+    /* flex-basis: 100%; */
+    align-self: center;
+    padding-left: 3%;
+    font-weight: 800;
+}
+/* styling content1 done */
+/* styling content2 */
+.content2{
+    margin-top: 7%;
+    text-align: center;
+}
+.content2 h1{
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+.content2 p{
+    font-size: 1.5rem;
+    color: rgb(138, 135, 135);
+    width: 35%;
+    margin: 0 auto;
+}
+.card{
+    width: 90%;
+}
+.card img{
+    height: 30vh;
+    object-fit: cover;
+}
+.card-body a{
+    border-radius: 20px;
+}
+.card-body h5{
+    font-size: 1.4rem;
+    margin-top: 3%;
+}
+.card-body p{
+    font-size: 1.2rem;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+.conter img{
+    width: 150%;
+    height: 6vh;
+    border-radius: 100%;
+    /* margin: 0% auto; */
+    margin-top: 3%;
+    object-fit: cover;
+}.conter{
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.conter3{
+    padding-left: 3%;
+    
+}
+.conter4{
+    /* flex-basis: 100%; */
+    align-self: center;
+    padding-left: 12%;
+    font-weight: 800;
+}
+.conter5 h5{
+    /* flex-basis: 100%; */
+    align-self: flex-start;
+    padding-left: 16%;
+    /* font-weight: 800; */
+    font-size: 1.2rem;
+    color: grey;
+}
+/* styling content2 done */
+/* styling content3 */
+.content3{
+    background-color: rgba(48, 100, 212, 0.925);
+    margin-top: 7%;
+    padding: 3%;
+    border-radius: 10px;
+    /* padding-left: 10%; */
+}
+.content3 h1{
+    color: white;
+    margin-left: 5%;
+}
+.content3 p{
+    color: rgba(255, 255, 255, 0.178);
+    font-size: 1.3rem;
+    margin-left: 5%;
+}
+/* styling content3 done */
+/* styling footer  */
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 7%;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+.footer a{
+    color: white;
+   font-size: 1.2rem;
+}
+.footer ul{
+    margin-left: 40%;
+}
+/* styling footer  done */
